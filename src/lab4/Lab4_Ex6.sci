@@ -29,7 +29,7 @@ end
 H = H(1:Ly, :); // Trim to Ly rows
 y_matrix = H * x';
 disp("Matrix Method Result:");
-disp(y_matrix ');
+disp(y_matrix);
 // Plotting
 energy_x = x.^2;
 energy_y = y.^2;

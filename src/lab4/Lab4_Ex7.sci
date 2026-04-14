@@ -26,13 +26,14 @@ end
 end
 y_matrix = X * h';
 disp("Matrix Method Result:");
-disp(y_matrix ');
+disp(y_matrix);
 // Plotting
 n = 0:N-1;
 energy_x = x.^2;
 energy_y = y.^2;
 max_e = max([energy_x , energy_y]);
-// ẽV
+
+
 clf();
 subplot(4,1,1);
 plot2d3(n, x, 5);

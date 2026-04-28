@@ -14,6 +14,8 @@ All scripts are implemented in **Scilab**, a free and open-source platform for n
 - `lab1`
 - `lab2`
 - `lab3`
+- `lab4`
+- `lab5`
 
 ## Authors
 
